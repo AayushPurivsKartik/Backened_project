@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Mania</title>
+    <script src="./service.js"></script>
+    <style>
+      body{
+        background-color: rgba(0, 0, 0, 0.637);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">User Mania</h1>
+
+    <form id="form" style="text-align: center; margin-bottom: 30px">
+      <input
+        type="number"
+        placeholder="enter id"
+        name="id"
+        style="font-size: 20px"
+      /> <br><br>
+      <input
+        type="text"
+        placeholder="Name"
+        name="name"
+        style="font-size: 20px"
+      /><br><br>
+      <input
+        type="number"
+        placeholder="Age"
+        name="age"
+        style="font-size: 20px"
+      /><br><br>
+      <button type="submit" style="font-size: 20px">Save Data</button><br>
+    </form>
+
+    <div
+      id="user-list"
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 900px;
+        height: 600px;
+        padding: 20px;
+        margin: auto;
+      "
+    ></div>
+  </body>
+</html>
